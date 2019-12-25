@@ -1,0 +1,33 @@
+class prachi:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+    def add(self):
+        return self.a+self.b
+    def mul(self):
+        return self.a*self.b
+    def sub(self):
+        return self.a-self.b
+    def div(self):
+        return self.a/self.b
+    def divi(self):
+        return self.a//self.b
+    def rem(self):
+        return self.a%self.b
+    def pow(self):
+        return self.a**self.b
+p=prachi(80,30)  
+t1=p.add() 
+t2=p.mul()
+t3=p.sub()
+t4=p.div()
+t5=p.divi()
+t6=p.rem()
+t7=p.pow()
+print(t1)
+print(t2)
+print(t3)
+print(t4)
+print(t5)
+print(t6)
+print(t7)  
